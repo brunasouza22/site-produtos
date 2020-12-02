@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página de produto</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="./img/original_trombones.png"
+        alt="logo-da-empresa"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <div>
+          <a href="#caracteristicas" class="links-inicio">Características</a>
+        </div>
+        <div>
+          <a href="#como-funciona" class="links-inicio">Como funciona</a>
+        </div>
+        <div><a href="#produtos" class="links-inicio">Preço</a></div>
+      </nav>
+    </header>
+    <main>
+      <form action="https://formspree.io/f/xjvpeoyj" id="form" method="POST">
+        <h1>Obras-primas artesanais e caseiras</h1>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite o seu email"
+          required
+        />
+        <br />
+        <input type="submit" value="Enviar" id="submit" />
+      </form>
+      <section id="caracteristicas">
+        <section id="material">
+          <img src="./img/img-fogo.jpg" alt="Imagem de fogo" />
+          <div>
+            <h2>Materiais Premium</h2>
+            <p>
+              Nossos trombones usam o latão mais brilhante de origem local. Isso
+              aumentará a longevidade de sua compra.
+            </p>
+          </div>
+        </section>
+        <section id="entrega">
+          <img src="./img/img-caminhao.png" alt="Imagem de caminhão" />
+          <div>
+            <h2>Entrega rápida</h2>
+            <p>
+              Nós garantimos que você receberá seu trombone assim que
+              terminarmos de fazê-lo. Também fornecemos devoluções gratuitas se
+              você não estiver satisfeito.
+            </p>
+          </div>
+        </section>
+        <section id="bateria">
+          <img src="./img/img-bateria.jpg" alt="Imagem de bateria" />
+          <div>
+            <h2>Garantia da Qualidade</h2>
+            <p>
+              Para cada compra que você fizer, garantiremos que não haja danos
+              ou falhas e verificaremos e testaremos a inclinação do seu
+              instrumento.
+            </p>
+          </div>
+        </section>
+      </section>
+      <section id="como-funciona">
+        <video controls>
+          <source src="./img/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <div id="produtos">
+        <div class="produtos-destaque">
+          <div class="sommbreado-itens">
+            <h3>Trombone Tenor</h3>
+          </div>
+          <h4>$600</h4>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum dolor.</p>
+          <p>Lorem ipsum.</p>
+          <button type="submit">Comprar</button>
+        </div>
+        <div class="produtos-destaque">
+          <div class="sommbreado-itens">
+            <h3>Trombone Bass</h3>
+          </div>
+          <h4>$900</h4>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum.</p>
+          <p>Lorem ipsum dolor.</p>
+          <p>Lorem ipsum.</p>
+          <button type="submit">Comprar</button>
+        </div>
+        <div class="produtos-destaque">
+          <div class="sommbreado-itens">
+            <h3>Trombone Valve</h3>
+          </div>
+          <h4>1200</h4>
+          <p>Plays similar to a Trumpet</p>
+          <p>Great for Jazz</p>
+          <p>Bands Lorem ipsum dolor.</p>
+          <p>Lorem ipsum.</p>
+          <button type="submit">Comprar</button>
+        </div>
+      </div>
+      <footer id="rodape">
+        <div class="link-rodape">
+          <div><a href="#" class="links-fim">Privacidade</a></div>
+          <div><a href="#" class="links-fim">Termos</a></div>
+          <div><a href="#" class="links-fim">Contato</a></div>
+        </div>
+        <aside class="aside-rodape">Copyright 2016, Trombones originais</aside>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+#header {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  position: fixed;
+  justify-content: space-between;
+  background-color: rgb(224, 222, 222);
+}
+
+#nav-bar {
+  display: flex;
+  padding: 20px;
+}
+
+.links-inicio {
+  color: black;
+  text-decoration: none;
+  padding-right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-img {
+  width: 20%;
+}
+
+main {
+  display: flexbox;
+  width: 70%;
+  margin: 0% 15% 0% 15%;
+}
+
+form {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#submit {
+  padding: 6px 40px 6px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(252, 129, 29);
+  margin-top: 20px;
+}
+
+#submit:hover {
+  background-color: rgb(247, 247, 80);
+}
+
+#email {
+  width: 40%;
+  padding: 6px;
+}
+
+#caracteristicas {
+  margin: 50px 0px 50px 0px;
+}
+
+#material {
+  display: flex;
+}
+
+#entrega {
+  display: flex;
+}
+
+#bateria {
+  display: flex;
+}
+
+img {
+  width: 15%;
+  margin-right: 30px;
+}
+
+video {
+  display: flex;
+  margin-left: 15%;
+  width: 70%;
+}
+
+#produtos {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0% 5% 0%;
+  text-align: center;
+}
+
+.produtos-destaque {
+  border: gray 1px solid;
+  width: 40%;
+  margin: 0px 0px 0px 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(252, 129, 29);
+}
+
+button:hover {
+  background-color: rgb(247, 247, 80);
+  transition-duration: 0.5s;
+}
+
+.sommbreado-itens {
+  background-color: rgb(189, 186, 186);
+  padding: 1px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#rodape {
+  background-color: rgb(224, 222, 222);
+}
+
+.link-rodape {
+  padding: 20px 20px 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links-fim {
+  text-decoration: none;
+  padding-right: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside-rodape {
+  padding: 5px 20px 20px 0px;
+  color: rgb(107, 106, 106);
+  display: flex;
+  justify-content: flex-end;
+}
